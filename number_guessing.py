@@ -34,10 +34,10 @@ while guess_counter < chances:
     if my_guess == number_to_guess:
         print(f'Parabéns! Você acertou com {guess_counter} tentativa/s!')
         break
+    elif guess_counter >= chances and my_guess != number_to_guess:
+        print(f'Sinto muito, suas tentativas acabaram! O número era {number_to_guess}.')
+        break
     elif my_guess > number_to_guess:
         print(f'Você chutou alto demais! Lhe restam {chances - guess_counter} tentativas.')
     elif my_guess < number_to_guess:
         print(f'Você chutou baixo demais! Lhe restam {chances - guess_counter} tentativas.')
-    elif guess_counter >= chances and my_guess != number_to_guess:
-        print(f'Sinto muito, suas tentativas acabaram! O número era {number_to_guess}.')
-        break
