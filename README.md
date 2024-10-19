@@ -52,7 +52,7 @@ Parabéns! Você acertou com 4 tentativa/s!
 
 ## Fonte de inspiração
 
-Este projeto foi inspirado por um artigo do GeeksforGeeks sobre o jogo de adivinhação de números. Você pode conferir o artigo completo [aqui.](https://www.geeksforgeeks.org/number-guessing-game-in-python/)
+Este projeto foi inspirado por um artigo do [GeeksforGeeks](https://www.geeksforgeeks.org/) sobre o jogo de adivinhação de números. Você pode conferir o artigo completo [aqui.](https://www.geeksforgeeks.org/number-guessing-game-in-python/)
 
 ## Contribuições
 
